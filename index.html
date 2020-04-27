@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Intersections</title>
+    <link href="css/index.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="grid-container">
+        <canvas id="canvas"></canvas>
+        <div class="buttonsContainer">
+            <button id="emptyBtn" class="btn selected" data-func="0"></button>
+            <button id="lineBtn" class="btn" data-func="1">Line</button>
+            <button id="circleBtn" class="btn" data-func="2">Circ</button>
+            <button id="diskBtn" class="btn" data-func="3">Elli</button>
+            <button id="rectangleBtn" class="btn" data-func="4">Rct</button>
+            <button id="sqaureBtn" class="btn" data-func="5">Car</button>
+            <div class="spacer"></div>
+            <button id="upBtn" class="btn">▲</button>
+            <button id="downBtn" class="btn">▼</button>
+            <div class="spacer"></div>
+            <!-- <button id="plusBtn" class="btn">+</button>
+            <button id="minusBtn" class="btn">-</button> -->
+        </div>
+        <div class="shapesListContainer">
+            <div id="shapesList" size="10" class="shapesList"></div>
+        </div>
+        <div class="bottomPanel">
+            <label for="backColor" class="alignLeft verticalCenter">
+                BackGround Color :
+                <input type="color" id="backColor" class="colorChooser alignLeft" />
+            </label>
+            <label for="strokeColor" class="alignLeft verticalCenter">
+                Stroke Color :
+                <input type="color" id="strokeColor" class="colorChooser alignLeft" />
+            </label>
+            <label for="ViewIntersections" class="alignRight verticalCenter">
+                <input type="checkbox" id="ViewIntersections" />View intersections
+            </label>
+            <label for="ViewTransparency" class="alignRight verticalCenter">
+                <input type="checkbox" id="ViewTransparency" />Transparent
+            </label>
+        </div>
+    </div>
+    <script src="js/Rect2D.js"></script>
+    <script src="js/Point2D.js"></script>
+    <script src="js/Vector2D.js"></script>
+    <script src="js/Polynomial2D.js"></script>
+    <script src="js/Shape2D.js"></script>
+    <script src="js/Line2D.js"></script>
+    <script src="js/Ellipse2D.js"></script>
+    <script src="js/Circle2D.js"></script>
+    <script src="js/Rectangle2D.js"></script>
+    <script src="js/Square2D.js"></script>
+    <script src="js/Polyline2D.js"></script>
+    <script src="js/Polygon2D.js"></script>
+    <script src="js/Intersection2D.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

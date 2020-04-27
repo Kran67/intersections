@@ -1,0 +1,1 @@
+class Path2D extends Shape2D { }
