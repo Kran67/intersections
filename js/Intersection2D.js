@@ -646,7 +646,7 @@ class Intersection2D {
                 )
             ];
         } else {
-            if ((ua_t = 0) || (ub_t = 0)) {
+            if ((ua_t === 0) || (ub_t === 0)) {
                 this.intersectionType = Intersection2DType.COINCIDENT;
             } else {
                 this.intersectionType = Intersection2DType.PARALLEL;
